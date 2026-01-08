@@ -1,6 +1,6 @@
 name: flex_otp
 description: A clean architecture OTP service package for Flutter supporting multiple SMS providers.
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/AkilaShashimantha/flex_otp.git
 
 environment:
@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.1.0  
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
 
 dev_dependencies:
   flutter_test:
