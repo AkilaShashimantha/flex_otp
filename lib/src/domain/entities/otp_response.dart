@@ -4,8 +4,8 @@ class OtpResponse {
   final bool isSuccess;
 
   OtpResponse({
-    required this.sessionId, 
-    required this.message, 
-    this.isSuccess = true
+    required this.sessionId,
+    required this.message,
+    this.isSuccess = true,
   });
 }
