@@ -5,4 +5,4 @@ export 'src/domain/entities/otp_response.dart';
 export 'src/domain/repositories/otp_repository.dart';
 
 // Exporting the Implementation
-export 'src/data/repositories/otp_repository_impl.dart';
+export 'src/data/repositories/firebase_otp_repo_impl.dart';
