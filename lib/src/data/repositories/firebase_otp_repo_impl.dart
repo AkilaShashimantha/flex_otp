@@ -19,6 +19,7 @@ class FirebaseOtpRepositoryImpl implements OtpRepository {
         },
         // Triggered if there is an error (e.g., wrong phone format)
         verificationFailed: (FirebaseAuthException e) {
+          print("Firebase SMS Error: ${e.code} - ${e.message}");
           throw e;
         },
         // Triggered for automatic code retrieval (Android only)
